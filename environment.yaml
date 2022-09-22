@@ -1,16 +1,8 @@
-name: del
+name: conda_env_name
 
 dependencies:
-  - python=3.9
+  - python=3.9 # change python version
   - pip
   - pip:
-    - pandas
-    - numpy
-    - matplotlib
-    - seaborn
-    - scikit-learn
-    - tensorflow
-    - tensorflow-datasets
-    - jupyterlab
-    - tqdm
     - pre-commit
+    # add your requirements
